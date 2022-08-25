@@ -1,0 +1,85 @@
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.font-medium {
+    font-family: 'Roboto';
+}
+h6{
+    font-family: 'Roboto';
+}
+td[aria-colindex='1'] {
+    text-align: center !important;
+}
+/* ICON FONT */
+.dx-icon-people:before{
+    font-family: "Font Awesome 5 Free";
+   content: "\f500";
+   display: inline-block;
+   padding-right: 3px;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 15px;
+}
+.dx-icon-monetization_on:before {
+    font-family: "Font Awesome 5 Free";
+   content: "\f155";
+   display: inline-block;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+}
+.dx-icon-assignment:before {
+    font-family: "Font Awesome 5 Free";
+   content: "\f46d";
+   display: inline-block;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+}
+.dx-icon-recent_actors:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f2b9";
+    display: inline-block;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.dx-icon-receipt:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f328";
+    display: inline-block;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.dx-icon-library_add:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f0fe";
+    display: inline-block;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.dx-icon-person:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f406";
+    display: inline-block;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.dx-icon-wallpaper:before{
+    font-family: "Font Awesome 5 Free";
+   content: "\f302";
+   display: inline-block;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 18px;
+}
+.btn-outline-danger {
+    margin-left: 10px;
+    border-radius: 3px !important;
+}

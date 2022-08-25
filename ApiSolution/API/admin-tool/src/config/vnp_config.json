@@ -1,0 +1,10 @@
+{
+    "vnp_TmnCode": "HUE00001",
+    "vnp_HashSecret": "LQJTTNYLEBRZYCGXYFVEWCFZSZXKFJFF",
+    "vnp_Url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html",
+    "vnp_ReturnUrl": "https://eticket.hueworldheritage.org.vn/return-success",
+    "apiBaseUrl": "https://localhost:44311/api",
+    "baseUrl": "https://localhost:44311",
+    "hostName": "eticket.hueworldheritage.org.vn",
+    "testUrl": "https://localhost:44311/api"
+}

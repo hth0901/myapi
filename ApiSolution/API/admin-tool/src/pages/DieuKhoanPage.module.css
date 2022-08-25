@@ -1,0 +1,28 @@
+.sidenav {
+    width: 230px;
+    position: relative;
+    z-index: 1;
+    top: 110px;
+    /* left: 140px; */
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+.sidenav li {
+  height: 40px;
+  margin: 2px 0;
+  background-color: #ccc;
+}
+
+.sidenav ul {
+  padding: 0;
+}
+
+.sidenav a {
+  color: #666;
+}
+
+.sidenav a.active {
+  background-color: rgb(249, 69, 39);
+  color: #fff;
+}

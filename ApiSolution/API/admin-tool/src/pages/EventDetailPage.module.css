@@ -1,0 +1,12 @@
+/* the slides */
+.slick-slide-margin {
+    margin-top: 20px;
+}
+/* the parent */
+.slick-list-margin {
+    margin: 0 -26px;
+}
+
+.main-content p {
+    font-family: 'Roboto' !important;
+}

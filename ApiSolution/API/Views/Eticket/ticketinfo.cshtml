@@ -1,0 +1,51 @@
+﻿@model Domain.ResponseEntity.TicketDetailAfterScan;
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông tin chi tiết vé</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <style>
+        * {
+            font-family: 'Roboto';
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 10%;
+        }
+
+        main {
+            margin: auto;
+            width: 80%;
+            margin-top: 50px;
+            color: #fff;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header style="background-color: @Model.ColorCode">
+        <img src="~/upload/images/logo.svg" style="place-self: flex-start" />
+    </header>
+    <main style="background-color: @Model.ColorCode">
+        <h3 style="text-transform: uppercase; text-align: center; font-weight: 500; font-size: 64px; line-height: 50px">Vé tham quan</h3>
+        <p style="text-align: center; font-weight: 400; font-size: 32px; line-height: 30px; margin-top: 25px">Mã vé/Code: <span style="font-weight: 700">@Model.OrderId</span></p>
+        <h3 style="text-align: center; font-weight: 700; font-size: 64px; line-height: 65px; margin-top: 25px">@Model.PlaceName</h3>
+        <p style="text-align: center; font-weight: 400; font-size: 40px; line-height: 45px; margin-top: 25px">Loại vé: <span style="font-weight: 700">@Model.CustomerTypeName</span></p>
+        <p style="text-align: center; font-weight: 400; font-size: 40px; line-height: 45px; margin-top: 25px">Số lượng: <span style="font-weight: 700">@Model.Quantity</span></p>
+        <p style="text-align: center; font-weight: 400; font-size: 40px; line-height: 45px; margin-top: 25px">Số lượt còn lại: <span style="font-weight: 700">@Model.QuantityRemain</span></p>
+    </main>
+</body>
+</html>

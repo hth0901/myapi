@@ -1,0 +1,244 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.modal-bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+    background-color: #fd813c;
+    max-width: 600px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+.modal-content {
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    margin-top: 18px;
+    margin-left: 35px;
+}
+.img-demo {
+    display: block;
+    margin: auto;
+}
+.div-content {
+    width: 88%;
+    max-width: 530px;
+    height: 412px;
+    margin: auto;
+    position: relative;
+}
+.img-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.title {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    text-align: center;
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    top: 20px;
+}
+
+.title-2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: #e36824;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.div-hr {
+    position: relative;
+    top: 66px;
+    margin: auto;
+    border-top: 1px dashed #e15555;
+    width: 89%;
+}
+.info-content {
+    margin: auto;
+    width: 80%;
+    position: relative;
+    top: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+}
+.p-title {
+    display: inline-block;
+    width: 35%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #e36824;
+}
+.p-value {
+    display: inline-block;
+    width: 60%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #363636;
+}
+.qr-container {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/qrimg_demo.png);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.qr-image {
+    width: 250px;
+    height: 250px;
+}
+.p-note {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media (max-height: 900px) {
+    .modal-bg {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        z-index: 100;
+        overflow: hidden;
+        background-color: #fd813c;
+        max-width: 600px;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+        padding-bottom: 5px;
+    }
+    .modal-content {
+        width: 100%;
+        position: relative;
+    }
+
+    .logo {
+        margin-top: 0px;
+        margin-left: -75px;
+        transform: scale(0.6);
+    }
+    .img-demo {
+        display: block;
+        margin: auto;
+    }
+    .div-content {
+        width: 88%;
+        max-width: 530px;
+        height: 350px;
+        margin: auto;
+        position: relative;
+    }
+    .img-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 32px;
+        top: 20px;
+    }
+
+    .title-2 {
+        top: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        max-height: 20px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .div-hr {
+        position: relative;
+        top: 55px;
+        margin: auto;
+        border-top: 1px dashed #e15555;
+        width: 89%;
+    }
+    .info-content {
+        margin: auto;
+        width: 80%;
+        position: relative;
+        top: 80px;
+        gap: 0px;
+    }
+    .p-title {
+        display: inline-block;
+        width: 35%;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .p-value {
+        display: inline-block;
+        width: 60%;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .qr-container {
+        width: 180px;
+        height: 180px;
+        margin-top: -20px;
+        margin-bottom: 0;
+        background-image: none;
+    }
+    .qr-image {
+        width: 150px;
+        height: 150px;
+    }
+    .p-note {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #ffffff;
+        margin-bottom: 15px;
+    }
+}

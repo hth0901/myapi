@@ -1,0 +1,8 @@
+/* the slides */
+.slick-slide-margin {
+  margin: 0 26px;
+}
+/* the parent */
+.slick-list-margin {
+  margin: 0 -26px;
+}
